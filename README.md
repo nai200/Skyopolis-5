@@ -1,15 +1,15 @@
 <!-- markdownlint-disable MD033 -->
-# Modpack
+# Skyopolis-5
 
-[![Name](https://img.shields.io/badge/CurseForge-Name-F16436)](https://www.curseforge.com/minecraft/modpacks/projectName)
+[![Skyopolis 5](https://img.shields.io/badge/CurseForge-Skyopolis%205-F16436)](https://www.curseforge.com/minecraft/modpacks/skyopolis-5)
 [![Website](https://shields.io/website?up_message=anyijun.com&url=http://anyijun.com&label=Website)](http://anyijun.com)
-[![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-blue)](https://github.com/ShaBaiTianCN/Modpack/blob/master/LICENSE)
-[![Downloads](https://shields.io/github/downloads/ShaBaiTianCN/Modpack/total?label=Downloads)](https://github.com/ShaBaiTianCN/Modpack/releases)
-[![Release](https://shields.io/github/v/release/ShaBaiTianCN/Modpack?display_name=tag&include_prereleases&label=Release)](https://github.com/ShaBaiTianCN/Modpack/releases/latest)
+[![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-blue)](https://github.com/ShaBaiTianCN/Skyopolis-5/blob/master/LICENSE)
+[![Downloads](https://shields.io/github/downloads/ShaBaiTianCN/Skyopolis-5/total?label=Downloads)](https://github.com/ShaBaiTianCN/Skyopolis-5/releases)
+[![Release](https://shields.io/github/v/release/ShaBaiTianCN/Skyopolis-5?display_name=tag&include_prereleases&label=Release)](https://github.com/ShaBaiTianCN/Skyopolis-5/releases/latest)
 
 ## 仓库说明
 
-这里是 Modpack 整合包简体中文汉化仓库。
+这里是 Skyopolis-5 整合包简体中文汉化仓库。
 
 ![汉化补丁食用说明](汉化补丁食用说明.jpg)
 
