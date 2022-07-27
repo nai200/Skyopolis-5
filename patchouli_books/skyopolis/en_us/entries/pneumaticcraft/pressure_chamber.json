@@ -1,0 +1,32 @@
+{
+    "name": "Pressure Chamber",
+    "icon": "pneumaticcraft:ingot_iron_compressed",
+    "category": "patchouli:pneumaticcraft",
+	"sortnum": "1",
+    "pages": [
+        {
+			"type": "text",
+			"text": "The pressure chamber can be used to create more pneimaticcraft items."
+        },
+        {
+			"type": "multiblock",
+			"name": "Pressure Chamber",
+			"enable_visualize": true,
+			"multiblock": {
+			"pattern":[
+			["www", "www", "www"],
+			["wgw", "i i", "wvw"],
+			["www", "w0w", "www"]
+			],
+			"mapping":{
+			"w": "pneumaticcraft:pressure_chamber_wall",
+			"g": "pneumaticcraft:pressure_chamber_glass",
+			"v": "pneumaticcraft:pressure_chamber_valve",
+			"i": "pneumaticcraft:pressure_chamber_interface",
+			"m": "#kubejs:miner"
+			}
+		},
+        "text": "200 Ticks, 1 Ore Roll"
+        }
+	]
+}

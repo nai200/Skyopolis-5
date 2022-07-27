@@ -1,0 +1,35 @@
+{
+    "name": "The End",
+    "icon": "minecraft:end_portal_frame",
+    "category": "patchouli:portals",
+	"sortnum": "6",
+    "pages": [
+		{
+			"type": "spotlight",
+			"text": "The Third dimension you can travel to is in the End.$(br2)Fill the portal frames with eyes of ender and travel through.$(br)$(l)$(6)For a valid portal, stand in the middle and place the portal frames around you to get the correct block orientation",
+			"item": "minecraft:ender_eye",
+			"link_recipe": true
+		},
+		{
+			"type": "multiblock",
+			"name": "End Portal",
+			"enable_visualize": true,
+			"multiblock": {
+			"pattern":[
+			[
+                " DDD ",
+                "D   D",
+                "D 0 D",
+                "D   D",
+                " DDD "
+            ]		
+        ],
+			"mapping":{
+			"0": "minecraft:air",
+			"D": "minecraft:end_portal_frame"
+			}
+		},
+		"text": "Requires $(l)$(l:portals/end_token)[End Token]$(/l)$() to get through"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "Cosmos Enriching",
+    "icon": "skyopolis_additions:cosmos_enriching_water_catalyst",
+    "category": "patchouli:waters",
+	"sortnum": "7",
+    "pages": [
+        {
+			"type": "spotlight",
+            "link_recipe": true,
+            "item": "skyopolis_additions:cosmos_enriching_water_catalyst",
+            "title": "Cosmos Enriching Catalyst",
+			"text": "Resource needed:$(li)[Advanced Crafting table]$(li2)x21 Astroid Block$(li2)$(l:waters/water)x8 Aqua Catalyst$(li2)x8 Space Suit Upgrade$(li2)$(l:waters/weak_enriching)x4 Weak Enriching Catalyst$(li2)$(l:waters/undergarden_enriching)x4 Undergarden Enriching Catalyst$(li2)$(l:waters/nether_enriching)x4 Nether Enriching Catalyst"
+		},
+        {
+            "type": "text",
+            "text": "After crafting, This Catalyst can be used to generate Cosmos Enriching Water by Throwing it in Nether Enriching Water"
+        },
+        {
+			"type": "multiblock",
+			"name": "Cosmos Enriching Water",
+			"enable_visualize": false,
+			"multiblock": {
+			"pattern":[
+			[" "],
+			["0"],
+            [" "]		
+        ],
+			"mapping":{
+			"0": "skyopolis:cosmos_enriching_water"
+			}
+		},
+		"text": "Resources obtained by:$(li)Dropping:$(li2)Blank Nuggets$(li2)Blank Pebbles$(li2)Blank Dust$(li2)Blank Gem$(li2)Any Ingot"
+		}
+		]
+}

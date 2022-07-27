@@ -1,0 +1,10 @@
+{
+	"name": "Skyopolis Guide Book",
+	"show_progress": false,
+	"landing_text": "Welcome to Skyopolis 5 $(br2)This book will help you with some of the mechanics in Skyopolis 5",
+	"version": 5,
+	"filler_texture": "skyopolis:textures/item/blank_totem.png",
+	"model": "patchouli:book_cyan",
+	"book_texture": "patchouli:textures/gui/book_blue.png",
+	"index_icon": "skyopolis:blank_totem"
+}

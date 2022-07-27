@@ -1,0 +1,12 @@
+{
+    "name": "Skyblock",
+    "icon": "minecraft:grass_block",
+    "category": "patchouli:getting_started",
+	"sortnum": "1",
+    "pages": [
+        {
+			"type": "text",
+			"text": "This is a skyblock world, falling off will kill you and by result you will lose your items. $(l:getting_started/void_totem)Void totems$() will protect you from void destruction$(br)Be Careful !"
+        }
+		]
+}

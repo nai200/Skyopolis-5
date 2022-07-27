@@ -1,0 +1,41 @@
+{
+    "name": "Water",
+    "icon": "skyopolis:aqua_catalyst",
+    "category": "patchouli:waters",
+	"sortnum": "1",
+    "pages": [
+        {
+			"type": "spotlight",
+            "item": "skyopolis:aqua_catalyst",
+            "title": "Regular Water",
+			"text": "This Catalyst is used for crafting and creating regular Water",
+			"link_recipe": true
+        },
+		{
+			"type": "crafting",
+			"recipe": "skyopolis:aqua_catalyst"
+			
+		},
+		{
+			"type": "crafting",
+			"recipe": "skyopolis:mulch_block_from_leaves",
+			"recipe2": "skyopolis:mulch_block_from_saplings"
+		},
+        {
+			"type": "multiblock",
+			"name": "Mulch Block",
+			"enable_visualize": false,
+			"multiblock": {
+			"pattern":[
+			[" "],
+			["0"],
+            [" "]		
+        ],
+			"mapping":{
+			"0": "skyopolis:mulch_block"
+			}
+		},
+		"text": "Right clicking a Mulch block with an Aqua Catalyst creates regular water (the block will get consumed)"
+		}
+		]
+}

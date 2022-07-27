@@ -1,0 +1,12 @@
+{
+    "name": "Silk Touch",
+    "icon": "minecraft:enchanted_book",
+    "category": "patchouli:bonsai_trees",
+	"sortnum": "3",
+    "pages": [
+        {
+			"type": "text",
+			"text": "Some of the things a tree produces requires a Silk Touch upgrade. You can either put an enchanted axe or an appropriately enchanted book into one of the upgrade slots. This does not prevent you from putting additional Fortune Upgrades into the Bonsai Pot."
+        }
+	]
+}

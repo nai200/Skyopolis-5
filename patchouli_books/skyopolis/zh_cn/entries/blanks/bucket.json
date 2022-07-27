@@ -1,0 +1,13 @@
+{
+    "name": "Blank Bucket",
+    "icon": "skyopolis_additions:blank_bucket",
+    "category": "patchouli:blanks",
+	"sortnum": "6",
+    "pages": [
+        {
+			"type": "spotlight",
+			"item": "skyopolis_additions:blank_bucket",
+            "text": "Dropped in any enriching water to pick it up"
+        }
+		]
+}

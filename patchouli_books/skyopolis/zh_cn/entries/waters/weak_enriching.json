@@ -1,0 +1,36 @@
+{
+    "name": "Weak Enriching",
+    "icon": "skyopolis_additions:weak_enriching_water_catalyst",
+    "category": "patchouli:waters",
+	"sortnum": "2",
+    "pages": [
+        {
+			"type": "spotlight",
+            "item": "skyopolis_additions:weak_enriching_water_catalyst",
+            "title": "Weak Enriching Catalyst",
+            "link_recipe": true,
+			"text": "Resources needed:$(li)$(l:waters/water)x1 Aqua Catalyst$(/l)$(li)x4 Blank Dust$(li)x4 Blank Pebbles$(br2)This Catalyst can be used to generate Weak Enriching Water by Throwing it in Regular Water"
+        },
+		{
+			"type": "crafting",
+			"recipe": "kubejs:kjs_d6fbmo33r2jymaih6v1bfrqdz",
+			"title": "Weak Enriching Catalyst"
+		},
+        {
+			"type": "multiblock",
+			"name": "Weak Enriching Water",
+			"enable_visualize": false,
+			"multiblock": {
+			"pattern":[
+			[" "],
+			["0"],
+            [" "]		
+        ],
+			"mapping":{
+			"0": "skyopolis:weak_enriching_water"
+			}
+		},
+		"text": "Resources obtained by $(li)Dropping:$(li2)Blank Pebbles$(li2)Blank Dust$(br)"
+		}
+		]
+}

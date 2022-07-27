@@ -1,0 +1,31 @@
+{
+    "name": "Eroding Water",
+    "icon": "skyopolis_additions:eroding_water_catalyst",
+    "category": "patchouli:waters",
+	"sortnum": "6",
+    "pages": [
+        {
+			"type": "spotlight",
+            "link_recipe": true,
+            "item": "skyopolis_additions:eroding_water_catalyst",
+            "title": "Eroding Catalyst",
+			"text": "Resources needed:$(li)$(l:waters/nether_enriching)x1 Nether Enriching Catalyst$(/l)$(li)x8 Netherite Ingot$(br2)This Catalyst can used to generate Eroding Enriching Water by Throwing it in Nether Enriching Water"
+        },
+        {
+			"type": "multiblock",
+			"name": "Eroding Enriching Water",
+			"enable_visualize": false,
+			"multiblock": {
+			"pattern":[
+			[" "],
+			["0"],
+            [" "]		
+        ],
+			"mapping":{
+			"0": "skyopolis:eroding_water"
+			}
+		},
+		"text": "Resources obtained by $(li)Dropping $(o)[cobblestone]$():$(li2)Blank Nuggets$(li2)Blank Pebbles$(li2)Blank Dust$(br)"
+		}
+		]
+}

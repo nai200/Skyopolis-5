@@ -1,0 +1,6 @@
+{
+	"name": "Waters",
+	"description": "Various different fluids can be created to make different items.$(br2)Drop items into water to make new different items",
+	"icon": "minecraft:water_bucket",
+	"sortnum": "5"
+}

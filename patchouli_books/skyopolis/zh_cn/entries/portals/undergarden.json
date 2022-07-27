@@ -1,0 +1,40 @@
+{
+    "name": "The Undergarden",
+    "icon": "minecraft:deepslate_bricks",
+    "category": "patchouli:portals",
+	"sortnum": "2",
+    "pages": [
+		{
+			"type": "spotlight",
+			"text": "The first dimension you can travel to is in the undergarden.$(br2)Use The $(l:portals/undergarden#undca)[Catalyst]$(/l) to light the center of the portal and travel through.$(br2)The portal frame uses deepslate bricks",
+			"item": "undergarden:catalyst",
+			"link_recipe": true
+		},
+		{
+			"type": "multiblock",
+			"name": "Undergarden Portal",
+			"enable_visualize": true,
+			"multiblock": {
+			"pattern":[
+			["DDDD"],
+			["D  D"],
+			["D  D"],
+            ["D  D"],
+			["DD0D"]		
+        ],
+			"mapping":{
+			"0": "minecraft:deepslate_bricks",
+			"D": "minecraft:deepslate_bricks"
+			}
+		},
+		"text": "Requires $(l)$(l:portals/undergarden_token)[Undergarden Token]$(/l)$() to get through"
+		},
+		{
+			"type": "crafting",
+			"recipe": "undergarden:catalyst",
+			"text": "",
+			"anchor": "undca",
+			"title": "Undergarden Catalyst"
+		}
+	]
+}

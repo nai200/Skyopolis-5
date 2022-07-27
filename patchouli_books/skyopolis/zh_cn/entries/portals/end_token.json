@@ -1,0 +1,14 @@
+{
+    "name": "End Token",
+    "icon": "skyopolis_additions:end_token",
+    "category": "patchouli:portals",
+	"sortnum": "5",
+    "pages": [
+        {
+			"type": "spotlight",
+			"item": "skyopolis_additions:end_token",
+            "text": "Resources needed:$(li)[Tinker's Smeltery]$(li2)x1 Ender Pearl$(li2)$(l:blanks/token)x1 Blank Token$(/l)$(br2)This Token is required to travel to $(l)$(l:portals/end)[The End]$(/l)"
+        }
+        
+		]
+}

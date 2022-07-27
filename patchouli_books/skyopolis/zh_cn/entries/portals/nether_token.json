@@ -1,0 +1,14 @@
+{
+    "name": "Nether Token",
+    "icon": "skyopolis_additions:nether_token",
+    "category": "patchouli:portals",
+	"sortnum": "3",
+    "pages": [
+        {
+			"type": "spotlight",
+			"item": "skyopolis_additions:nether_token",
+            "text": "Resources needed:$(li)[Basic Crafting Table]$(li2)x2 Lava Buckets$(li2)x2 Obsidian$(li2)$(l:blanks/token)x1 Blank Token$(/l)$(br2)This Token is required to travel to $()$(l:portals/nether)[The Nether]$(/l)"
+        }
+        
+		]
+}

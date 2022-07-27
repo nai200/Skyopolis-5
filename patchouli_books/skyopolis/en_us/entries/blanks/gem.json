@@ -1,0 +1,13 @@
+{
+    "name": "Blank Gem",
+    "icon": "skyopolis:blank_gem",
+    "category": "patchouli:blanks",
+	"sortnum": "5",
+    "pages": [
+        {
+			"type": "spotlight",
+			"item": "skyopolis:blank_gem",
+            "text": "Obtained from $(li)Strainers:$(li2)Reinforced Survivalist's strainers"
+        }
+		]
+}

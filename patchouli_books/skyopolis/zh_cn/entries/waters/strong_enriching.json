@@ -1,0 +1,36 @@
+{
+    "name": "Strong Enriching",
+    "icon": "skyopolis_additions:strong_enriching_water_catalyst",
+    "category": "patchouli:waters",
+	"sortnum": "4",
+    "pages": [
+        {
+			"type": "spotlight",
+            "link_recipe": true,
+            "item": "skyopolis_additions:strong_enriching_water_catalyst",
+            "title": "Strong Enriching Catalyst",
+			"text": "Resource needed:$(li)x4 Blank Nuggets$(li)x4 Waste$(br2)This Catalyst can be used to generate Strong Enriching Water by Throwing it in Undergarden Enriching Water"
+        },
+		{
+			"type": "crafting",
+			"recipe": "kubejs:kjs_cozqokn3tggvrsev9x3ak884s",
+			"title": "Strong Enriching Catalyst"
+		},
+        {
+			"type": "multiblock",
+			"name": "Strong Enriching Water",
+			"enable_visualize": false,
+			"multiblock": {
+			"pattern":[
+			[" "],
+			["0"],
+            [" "]		
+        ],
+			"mapping":{
+			"0": "skyopolis:strong_enriching_water"
+			}
+		},
+		"text": "To obtain different items you can drop :$(li)Blank Nuggets$(li)Blank Pebbles$(li)Blank Dust$(br)"
+		}
+		]
+}

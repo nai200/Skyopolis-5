@@ -1,0 +1,422 @@
+{
+	id: "7D2A26737FF5B72A"
+	group: "738EA971A0EF2AB1"
+	order_index: 2
+	filename: "basic_create"
+	title: "Create I"
+	icon: "create:millstone"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Pouring molten seared stone over a block of andesite creates andesite alloy."
+				"Pressing W over some create mod blocks and items will give you a more indepth guide on how to use "
+			]
+			dependencies: ["42A3808F305A6F3E"]
+			id: "50A329EB6C496D10"
+			tasks: [{
+				id: "1C37698734176003"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [{
+				id: "1AC95AB9770F88BD"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: ["Moves rotational energy"]
+			dependencies: ["50A329EB6C496D10"]
+			id: "2AD4CE605D0E73D1"
+			tasks: [{
+				id: "35C279697D941F2B"
+				type: "item"
+				item: "create:shaft"
+			}]
+			rewards: [
+				{
+					id: "263661796814F77E"
+					type: "item"
+					item: "skyopolis_additions:sky_bucks"
+				}
+				{
+					id: "7DF6B71D2267BECC"
+					type: "item"
+					item: "create:goggles"
+				}
+				{
+					id: "2A9A806C986BD3F5"
+					type: "item"
+					item: "create:wrench"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: ["Manual rotational energy"]
+			dependencies: ["50A329EB6C496D10"]
+			id: "562606E7A72B47EA"
+			tasks: [{
+				id: "3D24D92C712AD381"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+			rewards: [{
+				id: "07FCB0E5218C07B6"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			description: ["Uses rotational power to crush items down"]
+			dependencies: ["70E285EF8C95BCB6"]
+			id: "50B4CB8711ED3CB5"
+			tasks: [{
+				id: "72272495E15B3A32"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [{
+				id: "4EFF07EF7E503BBF"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			description: ["A shaft with a cog"]
+			dependencies: ["2AD4CE605D0E73D1"]
+			id: "70E285EF8C95BCB6"
+			tasks: [{
+				id: "4CC8BDB4F31B5805"
+				type: "item"
+				item: "create:cogwheel"
+			}]
+			rewards: [{
+				id: "08E09203CEED5DDA"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			description: ["Comes from milling gravel"]
+			dependencies: ["50B4CB8711ED3CB5"]
+			id: "36EAA3D6E2CA1A47"
+			tasks: [{
+				id: "54BB70156EF7A3AE"
+				type: "item"
+				item: "minecraft:flint"
+			}]
+			rewards: [{
+				id: "259DFEA81999C696"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			description: ["A shaft with an even bigger cog. Cogs can be mixed to increase and decrease rotational speed"]
+			dependencies: ["70E285EF8C95BCB6"]
+			id: "54B1BA3B7B12CA1E"
+			tasks: [{
+				id: "09AFDE3B9371058C"
+				type: "item"
+				item: "create:large_cogwheel"
+			}]
+			rewards: [{
+				id: "32ACE000FFB3083E"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			description: ["Can be used to mix items and fluids together inside a basin. This needs to reach a minimum speed before it will craft a recipe"]
+			dependencies: ["36EAA3D6E2CA1A47"]
+			id: "18F4610BEB0FD916"
+			tasks: [{
+				id: "256C05A210B624BA"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+			rewards: [{
+				id: "6404DF9A9FF46E76"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			description: ["Placed below a mechanical mixer. Set up is shown in the skyopolis guide book"]
+			dependencies: ["18F4610BEB0FD916"]
+			id: "328D1A8A3B08E2D4"
+			tasks: [{
+				id: "5AF199FC8E7EED74"
+				type: "item"
+				item: "create:basin"
+			}]
+			rewards: [{
+				id: "554F25A69435FB39"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			description: ["A darker stone material"]
+			dependencies: ["328D1A8A3B08E2D4"]
+			id: "37BD3277B0AEB70B"
+			tasks: [{
+				id: "6E9EFD2D4386FF46"
+				type: "item"
+				item: "minecraft:cobbled_deepslate"
+			}]
+			rewards: [
+				{
+					id: "3AB837868835E8A9"
+					type: "item"
+					item: "skyopolis_additions:sky_bucks"
+				}
+				{
+					id: "633359FA496D302D"
+					type: "item"
+					item: "skyopolis:basic_loot_box"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["A chute can be used to drop items straight down from a inventory above it"]
+			dependencies: ["50A329EB6C496D10"]
+			id: "5B4EA91CC57D26D4"
+			tasks: [{
+				id: "426FC3BEFD55DAEC"
+				type: "item"
+				item: "create:chute"
+			}]
+			rewards: [{
+				id: "0F8FAD251CAB8B83"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: ["Always points home"]
+			dependencies: ["50A329EB6C496D10"]
+			id: "7BEC2E004F14E531"
+			tasks: [{
+				id: "26CA07DEE6D927E6"
+				type: "item"
+				item: "minecraft:compass"
+			}]
+			rewards: [{
+				id: "336DCF6E85BB8BB9"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			description: ["Allows you to find certain biomes"]
+			dependencies: ["7BEC2E004F14E531"]
+			id: "059184E85F071D9E"
+			tasks: [{
+				id: "7333DDD26D71AF9A"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "13363F268FE1EE2A"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			description: ["Allows you to locate structures"]
+			dependencies: ["7BEC2E004F14E531"]
+			id: "6B5F4F2613B88CC1"
+			tasks: [{
+				id: "789C2C769571DBA4"
+				type: "item"
+				item: "structures_compass:structures_compass"
+			}]
+			rewards: [{
+				id: "6EAE7E452A2836EB"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			description: ["Blank tokens are used to create other tokens which allow you to travel to other dimensions"]
+			dependencies: [
+				"328D1A8A3B08E2D4"
+				"7DD8B887583E422E"
+			]
+			id: "5BD964AE15B0A901"
+			tasks: [{
+				id: "2B4EC39E14B37B09"
+				type: "item"
+				item: "skyopolis_additions:blank_token"
+			}]
+			rewards: [
+				{
+					id: "314F982FA7EAA02F"
+					type: "item"
+					item: "skyopolis_additions:sky_bucks"
+				}
+				{
+					id: "099FBEFED1547F66"
+					type: "item"
+					item: "skyopolis:basic_loot_box"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["Used for most create machines"]
+			dependencies: ["50A329EB6C496D10"]
+			id: "25D544836012A289"
+			tasks: [{
+				id: "44E5395EFBEC8888"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+			rewards: [
+				{
+					id: "26141BAAF08D0666"
+					type: "item"
+					item: "skyopolis_additions:sky_bucks"
+				}
+				{
+					id: "25110B644AC21763"
+					type: "item"
+					item: "skyopolis:basic_loot_box"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			description: ["Cutting up stones"]
+			dependencies: ["50A329EB6C496D10"]
+			id: "5191E13703FCF2C7"
+			tasks: [{
+				id: "41279E2AABBF2820"
+				type: "item"
+				item: "minecraft:stonecutter"
+			}]
+			rewards: [{
+				id: "3DDF09883B948E26"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			description: ["Shift right click to place in modules, Hold right click to perform a area scan"]
+			dependencies: [
+				"6B5F4F2613B88CC1"
+				"059184E85F071D9E"
+			]
+			id: "73EE0BA8AE437D1B"
+			tasks: [{
+				id: "2F8F02150D8F4A88"
+				type: "item"
+				item: "scannable:scanner"
+			}]
+			rewards: [
+				{
+					id: "1BF52222DD1ABC09"
+					type: "item"
+					item: "scannable:common_ores_module"
+				}
+				{
+					id: "160C0DDDA1FE059E"
+					type: "item"
+					item: "scannable:rare_ores_module"
+				}
+				{
+					id: "14144A8EF0C1F0A7"
+					type: "item"
+					item: "scannable:fluid_module"
+				}
+			]
+		}
+		{
+			title: "Sawmill"
+			x: -1.5d
+			y: -1.5d
+			description: ["Cutting up wood, shift right click to saw wood in your inventory"]
+			dependencies: ["50A329EB6C496D10"]
+			id: "516BDE9DAC6DC9FB"
+			tasks: [{
+				id: "0741FE4F2AA9FE43"
+				type: "item"
+				title: "Any #corail_woodcutter:woodcutters"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "corail_woodcutter:woodcutters"
+					}
+				}
+			}]
+			rewards: [{
+				id: "220952D23760BF09"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			description: ["A basic charger to charge items with power"]
+			dependencies: ["73EE0BA8AE437D1B"]
+			id: "23F3F06FBAD95D09"
+			tasks: [{
+				id: "377FA589DD2C0949"
+				type: "item"
+				item: {
+					id: "charginggadgets:charging_station"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0FBCFA0E7F3835F1"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+	]
+}

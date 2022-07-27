@@ -1,0 +1,6 @@
+{
+	"name": "Portals",
+	"description": "Various different portals can be created to enter different dimensions.$(br2)You must have obtained the appropriate token to enter the dimensions. For example the undergarden token to enter the undergarden dimension",
+	"icon": "quark:myalite_crystal",
+	"sortnum": "4"
+}

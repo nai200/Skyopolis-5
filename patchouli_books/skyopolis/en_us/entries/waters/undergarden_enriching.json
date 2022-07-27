@@ -1,0 +1,31 @@
+{
+    "name": "Undergarden Enriching",
+    "icon": "skyopolis_additions:undergarden_enriching_water_catalyst",
+    "category": "patchouli:waters",
+	"sortnum": "3",
+    "pages": [
+        {
+			"type": "spotlight",
+            "link_recipe": true,
+            "item": "skyopolis_additions:undergarden_enriching_water_catalyst",
+            "title": "Strong Enriching Catalyst",
+			"text": "Resources needed:$(li)[Tinker's Smeltery]$(li2)x2 Mushrooms$(li2)x50 Depthrock Pebbles$(li2)x1 Block of Clay$(li2)x1 Snow Block (500mb Water)$()$(br2)This Catalyst can be used to generate Undergarden Enriching Water by Throwing it in Weak Enriching Water"
+        },
+        {
+			"type": "multiblock",
+			"name": "Undergarden Enriching Water",
+			"enable_visualize": false,
+			"multiblock": {
+			"pattern":[
+			[" "],
+			["0"],
+            [" "]		
+        ],
+			"mapping":{
+			"0": "skyopolis:undergarden_enriching_water"
+			}
+		},
+		"text": "Resources obtained by $(li)Dropping:$(li2)Blank Pebbles$(li2)Blank Dust$(li2)Blank Nuggets"
+		}
+		]
+}

@@ -1,0 +1,225 @@
+{
+	id: "7A1B00DC64AD93AD"
+	group: "6A4994A3C34DFA56"
+	order_index: 0
+	filename: "important"
+	title: "Important Information"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: -3.0d
+			description: ["Please try to follow the quests, quests can be completed in any order you like providing you have unlocked it"]
+			dependencies: ["42930831093A12C6"]
+			id: "774D8996C981C145"
+			tasks: [{
+				id: "505416683F332203"
+				type: "checkmark"
+				title: "Follow The Quests"
+			}]
+			rewards: [{
+				id: "5B588240B5B404CD"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			description: ["This guide book will help you with some stuff in this modpack. If you lose this you can craft it again with a piece of dirt"]
+			dependencies: ["5C05960AB128C94E"]
+			id: "42930831093A12C6"
+			tasks: [{
+				id: "062FE99D4FCC23B8"
+				type: "checkmark"
+				title: "Guide Book"
+			}]
+			rewards: [
+				{
+					id: "5D5917089B35B2C2"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "patchouli:skyopolis"
+						}
+					}
+				}
+				{
+					id: "38F36B2127E257A3"
+					type: "item"
+					item: "skyopolis_additions:sky_bucks"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			description: ["Some recipes use fluid crafting, simply drop the items into the correct fluid to start the recipe. Items will sometimes sit at the bottom of the fluid so you might have to jump in a get it"]
+			dependencies: ["42930831093A12C6"]
+			id: "6E6EF4CC34DA2253"
+			tasks: [{
+				id: "2BA615C4A7AD9D4C"
+				type: "checkmark"
+				title: "Fluid Crafting"
+			}]
+			rewards: [{
+				id: "6A54DECBCEE67BD3"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			description: ["Dimensions are locked until you obtain that dimensions token"]
+			dependencies: ["42930831093A12C6"]
+			id: "24632C0F9374867D"
+			tasks: [{
+				id: "6C6379DAE4684EB2"
+				type: "checkmark"
+				title: "Tokens"
+			}]
+			rewards: [{
+				id: "51CBCAC151C8D365"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			description: ["Main chapters will have a bonus quest line called chapter challenges. These challenges will reward you with a useful item. These quests will also consume the the required items"]
+			dependencies: ["42930831093A12C6"]
+			id: "5B961C64D2FA35F5"
+			tasks: [{
+				id: "50A54EC2D9BEEE59"
+				type: "checkmark"
+				title: "Chapter Challenges"
+			}]
+			rewards: [{
+				id: "3FE2356A4D514A1D"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			description: ["The overworld has a few different islands you can go to. Islands contain chests with some useful items inside. The void will kill you!"]
+			dependencies: ["42930831093A12C6"]
+			id: "20323FE63506FD44"
+			tasks: [{
+				id: "12626C119D487741"
+				type: "checkmark"
+				title: "The World"
+			}]
+			rewards: [{
+				id: "22FCB1D3F11C650B"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			description: ["Sky bucks can be used to purchase items from amadron"]
+			dependencies: ["42930831093A12C6"]
+			id: "740248E198F3421D"
+			tasks: [{
+				id: "4864DF0BB6C956CD"
+				type: "checkmark"
+				title: "Sky Bucks"
+			}]
+			rewards: [{
+				id: "3976D96F0FF1DF8F"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			description: ["Some loot boxes can be crafted to obtain certain loot. Other loot boxes can be collected via quest rewards and the amadron shop"]
+			dependencies: ["42930831093A12C6"]
+			id: "0D8EA6350C211C2F"
+			tasks: [{
+				id: "17B5C95BCDEDCE98"
+				type: "checkmark"
+				title: "Loot Boxes"
+			}]
+			rewards: [
+				{
+					id: "7E87BF4F01B92003"
+					type: "item"
+					item: "skyopolis_additions:sky_bucks"
+				}
+				{
+					id: "20B4B0436239490F"
+					type: "item"
+					item: "skyopolis:basic_loot_box"
+				}
+			]
+		}
+		{
+			title: "Amadron"
+			x: -1.5d
+			y: 1.0d
+			description: ["Amadron is your home for all your skyblock needs! "]
+			dependencies: ["42930831093A12C6"]
+			id: "06AC0E48715BBF35"
+			tasks: [{
+				id: "7D2A878601818D24"
+				type: "checkmark"
+				title: "Amadron "
+			}]
+			rewards: [
+				{
+					id: "5B717F1D97F758B0"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:amadron_tablet"
+						Count: 1b
+						tag: {
+							"pneumaticcraft:air": 30000
+						}
+					}
+				}
+				{
+					id: "1A841077C1242137"
+					type: "item"
+					item: "pneumaticcraft:charging_station"
+				}
+				{
+					id: "2BFE7B01C2BE4AE8"
+					type: "item"
+					item: "pneumaticcraft:air_compressor"
+				}
+				{
+					id: "7714AF3C80F431EF"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 06AC0E48715BBF35"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			description: ["This modpack is built with skyblock builder. Right click the item given from this quest to create, manage, join and pick your starting island!"]
+			id: "5C05960AB128C94E"
+			tasks: [{
+				id: "322D30154398507D"
+				type: "checkmark"
+				title: "Skyblock Builder"
+			}]
+			rewards: [{
+				id: "15277D5987E96349"
+				type: "item"
+				item: "skyopolis_additions:skyblock_menu"
+			}]
+		}
+	]
+}

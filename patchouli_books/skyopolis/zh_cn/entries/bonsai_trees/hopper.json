@@ -1,0 +1,12 @@
+{
+    "name": "Hopper Upgrade",
+    "icon": "minecraft:hopper",
+    "category": "patchouli:bonsai_trees",
+	"sortnum": "2",
+    "pages": [
+        {
+			"type": "text",
+			"text": "Insert a hopper into one of the upgrade slots to make the Bonsai Pot automatically export all harvested items into the inventory below. This is not needed to extract the items in a different way, e.g. you can also place the hopper or some piping below the pot."
+        }
+	]
+}

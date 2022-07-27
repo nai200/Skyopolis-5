@@ -1,0 +1,13 @@
+{
+    "name": "Blank Pebble",
+    "icon": "skyopolis:blank_pebble",
+    "category": "patchouli:blanks",
+	"sortnum": "2",
+    "pages": [
+        {
+			"type": "spotlight",
+			"item": "skyopolis:blank_pebble",
+            "text": "Obtained from $(li)Strainers:$(li2)Survivalist's strainers$(li2)Solid Survivalist's strainers$(li2)Reinforced Survivalist's strainers"
+        }
+		]
+}

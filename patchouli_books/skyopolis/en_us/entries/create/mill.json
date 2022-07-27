@@ -1,0 +1,27 @@
+{
+    "name": "Millstone",
+    "icon": "create:millstone",
+    "category": "patchouli:create",
+	"sortnum": "1",
+    "pages": [
+        {
+			"type": "text",
+			"text": "The Millstone can Grind different items"
+        },
+		{
+			"type": "multiblock",
+			"name": "Millstone",
+			"enable_visualize": false,
+			"multiblock": {
+			"pattern":[
+			["0"],
+			[" "]		
+        ],
+			"mapping":{
+			"0": "create:millstone"
+			}
+		},
+		"text": "The Millstone can crush and mill different items ie.$(br)(cobblestone -> gravel)$(br)(gravel -> flint)"
+		}
+	]
+}

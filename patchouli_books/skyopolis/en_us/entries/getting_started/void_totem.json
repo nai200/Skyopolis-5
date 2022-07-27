@@ -1,0 +1,24 @@
+{
+    "name": "Void Totem",
+    "icon": "voidtotem:totem_of_void_undying",
+    "category": "patchouli:getting_started",
+	"sortnum": "2",
+    "pages": [
+        {
+			"type": "text",
+			"text": "$(#063CFF)Void totems$() will protect you from dying from the void and will help you protect your items$(br2)To craft the Void Totem you need to craft a $(l:blanks/totem)Blank Totem$(/l) First"
+        },
+        {
+            "text": "After crafting the blank Totem you just need to smelt it to have a Void Totem",
+            "type": "smelting",
+            "recipe": "skyopolis:void_totem",
+            "title": "Void Totem"
+        },
+        {
+            "type": "crafting",
+            "title": "Void Totem",
+            "recipe": "voidtotem:totem_of_void_undying"
+        }
+        
+		]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Waterwheels",
+    "icon": "create:water_wheel",
+    "category": "patchouli:create",
+	"sortnum": "4",
+    "pages": [
+        {
+			"title": "The Waterwheel",
+			"type": "spotlight",
+            "link_recipe": true,
+            "item": "create:water_wheel",
+			"text": "The Waterwheel need to have flowing water over it for it to turn and generate kinetic energy"
+		}
+	]
+}

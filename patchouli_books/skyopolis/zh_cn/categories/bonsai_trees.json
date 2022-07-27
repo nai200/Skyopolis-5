@@ -1,0 +1,6 @@
+{
+	"name": "Bonsai Pots",
+	"description": "Bonsai pots can be used to grow saplings and mushrooms, pots can also be dyed by right clicking the block with a dye",
+	"icon": "bonsaitrees3:bonsaipot",
+	"sortnum": "2"
+}

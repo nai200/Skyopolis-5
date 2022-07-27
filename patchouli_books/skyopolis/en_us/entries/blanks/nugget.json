@@ -1,0 +1,13 @@
+{
+    "name": "Blank Nugget",
+    "icon": "skyopolis:blank_nugget",
+    "category": "patchouli:blanks",
+	"sortnum": "3",
+    "pages": [
+        {
+			"type": "spotlight",
+			"item": "skyopolis:blank_nugget",
+            "text": "Obtained from $(li)Strainers:$(li2)Solid Survivalist's strainers$(li2)Reinforced Survivalist's strainers"
+        }
+		]
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Melter",
+    "icon": "tconstruct:seared_melter",
+    "category": "patchouli:tinkers",
+	"sortnum": "1",
+    "pages": [
+        {
+			"type": "spotlight",
+			"item": "tconstruct:seared_melter",
+            "text": "The Melter is a versatile Block to progress in this pack$(br2)To melt Items/Blocks in this block a Seared Heater is needed as it burns fuel for the Melter to melt said items"
+        },
+        {
+			"type": "multiblock",
+			"name": "Melter",
+			"enable_visualize": true,
+			"multiblock": {
+			"pattern":[
+            [
+                "FM"
+            ],
+			[
+                "B0"
+            ]
+            		
+        ],
+			"mapping":{
+			"0": "tconstruct:seared_heater",
+            "T": "tconstruct:seared_table",
+            "B": "tconstruct:seared_basin",
+            "M": "tconstruct:seared_melter",
+            "F": "tconstruct:seared_faucet"
+        }
+		},
+		"text": "$(br)Melter Multiblock from Tinker's Construct"
+		}
+		]
+}

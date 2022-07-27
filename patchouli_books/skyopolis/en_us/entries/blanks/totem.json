@@ -1,0 +1,17 @@
+{
+    "name": "Blank Totem",
+    "icon": "skyopolis:blank_totem",
+    "category": "patchouli:blanks",
+	"sortnum": "8",
+    "pages": [
+        {
+			"type": "spotlight",
+			"item": "skyopolis:blank_totem",
+            "text": "Blank totems are useful for making $(l:getting_started/void_totem)Void Totems$(/l)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "skyopolis:blank_totem"
+        }
+		]
+}

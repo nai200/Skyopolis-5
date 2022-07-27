@@ -1,0 +1,13 @@
+{
+    "name": "Blank Dust",
+    "icon": "skyopolis:blank_dust",
+    "category": "patchouli:blanks",
+	"sortnum": "1",
+    "pages": [
+        {
+			"type": "spotlight",
+			"item": "skyopolis:blank_dust",
+            "text": "Obtained from $(li)Strainers:$(li2)Survivalist's strainers$(li2)Solid Survivalist's strainers$(li2)Reinforced Survivalist's strainers"
+        }
+		]
+}

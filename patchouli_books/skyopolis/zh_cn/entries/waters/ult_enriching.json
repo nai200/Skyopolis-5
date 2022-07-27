@@ -1,0 +1,35 @@
+{
+    "name": "Ultimate Enriching",
+    "icon": "skyopolis_additions:ultimate_enriching_water_catalyst",
+    "category": "patchouli:waters",
+	"sortnum": "8",
+    "pages": [
+        {
+			"type": "spotlight",
+            "link_recipe": true,
+            "item": "skyopolis_additions:ultimate_enriching_water_catalyst",
+            "title": "Ultimate Enriching Catalyst",
+			"text": "Resources needed: $(li)[Ultimate Crafting table]$(li2)x22 Blank Ingots$(li2)$(l:waters/water)x4 Aqua Catalyst$(li2)$(l:waters/weak_enriching)x3 Weak Enriching Catalyst$(li2)$(l:waters/strong_enriching)x3 Strong Enriching Catalyst$(li2)x3 Blank Bucket$(li2)$(l:waters/cosmos_enriching)x2 Cosmos Enriching Catalyst$(li2)$(l:waters/undergarden_enriching)x2 Undergarden Enriching Catalyst$(li2)$(l:waters/eroding_water)x2 Eroding Catalyst$(/l)"
+        },
+        {
+            "type": "text",
+            "text": "After crafting, This Catalyst can used to generate Ultimate Enriching Water by Throwing it in Cosmos Enriching Water"
+        },
+        {
+			"type": "multiblock",
+			"name": "Ultimate Enriching Water",
+			"enable_visualize": false,
+			"multiblock": {
+			"pattern":[
+			[" "],
+			["0"],
+            [" "]		
+        ],
+			"mapping":{
+			"0": "skyopolis:ultimate_enriching_water"
+			}
+		},
+		"text": "Resources obtained by :$(li)Dropping:$(li2)Blank Ingot"
+		}
+		]
+}

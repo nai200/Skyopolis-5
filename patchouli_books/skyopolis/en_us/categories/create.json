@@ -1,0 +1,6 @@
+{
+	"name": "Create",
+	"description": "This section Gives you Help With Basic Create Contraptions that you will need to progress throughout the pack$(br2)You can also hover over any Create item in your inventory and hold $(l)$(6)[$(k:forward)]$() to view the create built in help",
+	"icon": "create:millstone",
+	"sortnum": "2"
+}

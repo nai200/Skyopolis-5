@@ -1,0 +1,33 @@
+{
+    "name": "The Nether",
+    "icon": "minecraft:obsidian",
+    "category": "patchouli:portals",
+	"sortnum": "4",
+    "pages": [
+		{
+			"type": "spotlight",
+			"text": "The second dimension you can travel to is in the nether.$(br2)Use the flint and steel to light the center of the portal and travel through.$(br2)The portal frame uses obsidian",
+			"item": "minecraft:flint_and_steel",
+			"link_recipe": true
+		},
+		{
+			"type": "multiblock",
+			"name": "Nether Portal",
+			"enable_visualize": true,
+			"multiblock": {
+			"pattern":[
+			["DDDD"],
+			["D  D"],
+			["D  D"],
+            ["D  D"],
+			["DD0D"]		
+        ],
+			"mapping":{
+			"0": "minecraft:obsidian",
+			"D": "minecraft:obsidian"
+			}
+		},
+		"text": "Requires $(4)$(l)$(l:portals/nether_token)[Nether Token]$(/l)$() to get through"
+		}
+	]
+}

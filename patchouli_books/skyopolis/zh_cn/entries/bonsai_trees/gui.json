@@ -1,0 +1,21 @@
+{
+    "name": "GUI",
+    "icon": "bonsaitrees3:bonsaipot",
+    "category": "patchouli:bonsai_trees",
+	"sortnum": "2",
+    "pages": [
+        {
+			"type": "text",
+			"text": "The GUI."
+        },
+        {
+			"type": "image",
+			"images": [
+			"skyopolis_book:textures/book/bonsai_tree.png"
+			],
+			"title": "Bonsai Pot GUI",
+			"border": true,
+			"text": ""
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Blank Ingot",
+    "icon": "skyopolis_additions:blank_ingot",
+    "category": "patchouli:blanks",
+	"sortnum": "4",
+    "pages": [
+        {
+			"type": "spotlight",
+			"item": "skyopolis_additions:blank_ingot",
+            "text": "Resources needed:$(li)[Quantum Compressor]$(li2)$(l:blanks/nugget)x1 Blank Nugget$(/l)$(li2)x1 Cobblestone$(br2)"
+        }
+		]
+}

@@ -1,0 +1,468 @@
+{
+	id: "024321AEC340EA9A"
+	group: "72394998FB073342"
+	order_index: 0
+	filename: "the_basics"
+	title: "The Basics"
+	icon: "minecraft:oak_log"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Logs"
+			x: -1.5d
+			y: -2.5d
+			description: ["Punch tree, get wood"]
+			id: "14C68E88A9D7E985"
+			tasks: [{
+				id: "200EA40F1A462C3D"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+			rewards: [{
+				id: "655F78FC736B5965"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			title: "Planks"
+			x: -1.5d
+			y: -1.0d
+			description: ["Logs to planks"]
+			dependencies: ["14C68E88A9D7E985"]
+			id: "6CE64E5CDF5A5456"
+			tasks: [{
+				id: "28F11C0AA5A45663"
+				type: "item"
+				title: "Any #minecraft:planks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "49057E48B9659D25"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			description: ["Planks to sticks"]
+			dependencies: ["6CE64E5CDF5A5456"]
+			id: "133CEA136458CCBA"
+			tasks: [{
+				id: "51F00B48C5FBE0F5"
+				type: "item"
+				item: "minecraft:stick"
+			}]
+			rewards: [{
+				id: "014AD3A209AC953F"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			description: ["Allows 3x3 crafting"]
+			dependencies: ["6CE64E5CDF5A5456"]
+			id: "091007E8C61702D9"
+			tasks: [{
+				id: "0F91C5B750E47DE2"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [
+				{
+					id: "150C8C97339A0722"
+					type: "item"
+					item: "skyopolis_additions:sky_bucks"
+				}
+				{
+					id: "254F0FC9FE62D01B"
+					type: "item"
+					item: "skyopolis:basic_loot_box"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			description: ["Shears can be used to collect leaves. Kamas from tinkers can also be used as shears"]
+			dependencies: ["091007E8C61702D9"]
+			id: "1AAA147E8C303C44"
+			tasks: [{
+				id: "4D2460EEE85520F3"
+				type: "item"
+				item: {
+					id: "skyopolis:wooden_shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5E2E752AD51D4DED"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			title: "Leaves"
+			x: -1.5d
+			y: 3.5d
+			description: ["Leaves can be turned in leafy string"]
+			dependencies: ["1AAA147E8C303C44"]
+			id: "28ED0629A991863A"
+			tasks: [{
+				id: "3919D226760E4137"
+				type: "item"
+				title: "Any #minecraft:leaves"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:leaves"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6DFE7522FE3581FC"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			description: ["Can be used to make green wool"]
+			dependencies: ["28ED0629A991863A"]
+			id: "6AA29623F2B81EB0"
+			tasks: [{
+				id: "3FA9001D1083664E"
+				type: "item"
+				item: "skyopolis:leafy_string"
+			}]
+			rewards: [{
+				id: "7AE7B5FA9ADB5A44"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			description: ["Soft!"]
+			dependencies: ["6AA29623F2B81EB0"]
+			id: "30772354F7427B6C"
+			tasks: [{
+				id: "2CFC944AF0431194"
+				type: "item"
+				item: "minecraft:green_wool"
+			}]
+			rewards: [{
+				id: "11DE8796924CD6BE"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			description: ["Used to make a nice bed, and set your spawn"]
+			dependencies: ["30772354F7427B6C"]
+			id: "5810B46260996427"
+			tasks: [{
+				id: "5BBF009C32B24A85"
+				type: "item"
+				item: "minecraft:green_bed"
+			}]
+			rewards: [
+				{
+					id: "03850005DFD97339"
+					type: "item"
+					item: "skyopolis_additions:sky_bucks"
+				}
+				{
+					id: "6E230AC33495BBC4"
+					type: "item"
+					item: "skyopolis:basic_loot_box"
+				}
+			]
+		}
+		{
+			title: "Saplings"
+			x: -3.0d
+			y: -2.5d
+			description: ["Plant on dirt to grow more trees, tree growth can be sped up by pressing shift around the sapling"]
+			dependencies: ["14C68E88A9D7E985"]
+			id: "18907877AF3E32AD"
+			tasks: [{
+				id: "4E748BD2EAD8A0D6"
+				type: "item"
+				title: "Any #minecraft:saplings"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:saplings"
+					}
+				}
+			}]
+			rewards: [{
+				id: "17E1470F3F32370B"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			description: ["Oak leaves have a chance to drop apples"]
+			dependencies: ["14C68E88A9D7E985"]
+			optional: true
+			id: "4D585A4444E3C9EF"
+			tasks: [{
+				id: "397D5B152403BC48"
+				type: "item"
+				item: "minecraft:apple"
+			}]
+			rewards: [{
+				id: "629636ABA46B1A35"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			title: "Wooden Slab"
+			x: 0.0d
+			y: 0.5d
+			description: ["Half a block"]
+			dependencies: ["091007E8C61702D9"]
+			id: "1496C04B43F2DB7A"
+			tasks: [{
+				id: "2234DCA257EFA67E"
+				type: "item"
+				title: "Any #minecraft:wooden_slabs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:wooden_slabs"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6F815CD957012150"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			description: ["Can be used to turn organic materials into bone meal"]
+			dependencies: ["1496C04B43F2DB7A"]
+			id: "53CF7A96D1DD6BF8"
+			tasks: [{
+				id: "46EB6403A9BB7F3D"
+				type: "item"
+				item: "minecraft:composter"
+			}]
+			rewards: [{
+				id: "7AAF9A3767EBE960"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			description: ["Made in the composter from leaves, saplings and other organic material"]
+			dependencies: ["53CF7A96D1DD6BF8"]
+			id: "742C617CF170679D"
+			tasks: [{
+				id: "39201B69C0C231F6"
+				type: "item"
+				item: "minecraft:bone_meal"
+			}]
+			rewards: [
+				{
+					id: "63B3817BD269B72B"
+					type: "item"
+					item: "skyopolis_additions:sky_bucks"
+				}
+				{
+					id: "3F8AB5744AFB6A42"
+					type: "item"
+					item: "skyopolis:basic_loot_box"
+				}
+			]
+		}
+		{
+			title: "Chests"
+			x: -3.0d
+			y: 0.5d
+			description: ["Store your stuff"]
+			dependencies: ["091007E8C61702D9"]
+			id: "47FEF063624D4508"
+			tasks: [{
+				id: "7D43D8519AD1E434"
+				type: "item"
+				title: "Any #forge:chests/wooden"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4973D765CD7FB93E"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			description: ["Basic item transport"]
+			dependencies: ["47FEF063624D4508"]
+			id: "3ECD51F550A686F5"
+			tasks: [{
+				id: "76D67C4C36E2C81B"
+				type: "item"
+				item: "woodenhopper:wooden_hopper"
+			}]
+			rewards: [{
+				id: "00D0ADAC9FDE3E5D"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			title: "Drawer"
+			x: -4.5d
+			y: 0.5d
+			description: ["Holds a large amount of 1 item"]
+			dependencies: ["47FEF063624D4508"]
+			id: "4BA65AA5E5A8FA1D"
+			tasks: [{
+				id: "715C62EE5AE49689"
+				type: "item"
+				title: "Any #skyopolis:drawer_1x1"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "skyopolis:drawer_1x1"
+					}
+				}
+			}]
+			rewards: [{
+				id: "79AFB1CC825DB1EC"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			title: "Drawer (2x1)"
+			x: -4.5d
+			y: -1.0d
+			description: ["Holds a medium anmount of 2 items"]
+			dependencies: ["47FEF063624D4508"]
+			id: "41A9ED6AFD16602F"
+			tasks: [{
+				id: "33AD8018E2B46705"
+				type: "item"
+				title: "Any #skyopolis:drawer_2x1"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "skyopolis:drawer_2x1"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1FBD1B882DBEF518"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			title: "Drawer (2x2)"
+			x: -3.0d
+			y: -1.0d
+			description: ["Holds a small amout of 4 items"]
+			dependencies: ["47FEF063624D4508"]
+			id: "15780B13A8973FD1"
+			tasks: [{
+				id: "15991569CA1DA9EF"
+				type: "item"
+				title: "Any #skyopolis:drawer_2x2"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "skyopolis:drawer_2x2"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C62DFD4021060D0"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			description: ["A crafting table that holds its items, also connects to adjacent chests and inventories"]
+			dependencies: ["400A516E06EBD640"]
+			id: "5AEE753CD1664474"
+			tasks: [{
+				id: "11781A1C9E35B5CB"
+				type: "item"
+				item: "tconstruct:crafting_station"
+			}]
+			rewards: [{
+				id: "7C07E260151CFD64"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: ["Useful for tinkers"]
+			dependencies: ["091007E8C61702D9"]
+			id: "400A516E06EBD640"
+			tasks: [{
+				id: "3A3EE4A0D1275D43"
+				type: "item"
+				item: "tconstruct:pattern"
+			}]
+			rewards: [{
+				id: "591E9686587474EB"
+				type: "item"
+				item: "skyopolis_additions:sky_bucks"
+			}]
+		}
+	]
+}
